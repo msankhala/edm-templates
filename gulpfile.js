@@ -4,7 +4,7 @@ var gulp = require('gulp'),
     debug = require('gulp-debug');
 
 var bases = {
-  imagesBasePath: 'http://srijan-best.s114.srijan-sites.com/sites/default/files/fc-email-images/',
+  imagesBasePath: 'https://raw.githubusercontent.com/msankhala/edm-templates/master/build/images/',
   build: 'build/'
 };
 
