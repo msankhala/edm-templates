@@ -1,0 +1,300 @@
+/*================================================================
+=            Styling to target different email client            =
+================================================================*/
+
+body {
+  margin: 0 !important;
+  padding: 0;
+  background-color: #ffffff;
+}
+
+table {
+  border-spacing: 0;
+  font-family: sans-serif;
+  color: #383a40
+  table-layout: fixed;
+}
+
+td {
+  padding: 0;
+}
+
+img {
+  border: 0;
+}
+
+div[style*="margin: 16px 0"] {
+  margin:0 !important;
+}
+
+.wrapper {
+  width: 100%;
+  table-layout: fixed;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+}
+
+.webkit {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.outer {
+  Margin: 0 auto;
+  width: 100%;
+  max-width: 600px;
+}
+
+.inner {
+  padding: 10px;
+}
+
+p {
+    Margin: 0;
+}
+
+.full-width-image img {
+  width: 100%;
+  max-width: 600px;
+  height: auto;
+}
+
+/* One column layout */
+.one-column .contents {
+  text-align: left;
+}
+
+.one-column p {
+  Margin-bottom: 10px;
+}
+
+/*Two column layout*/
+.two-column {
+  text-align: center;
+  font-size: 0;
+}
+
+.two-column .column {
+  width: 100%;
+  max-width: 300px;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.contents {
+  width: 100%;
+}
+
+.two-column .contents {
+  font-size: 16px;
+  line-height: 20px;
+  text-align: left;
+}
+
+.two-column img {
+  width: 100%;
+  max-width: 280px;
+  height: auto;
+}
+
+.two-column .text {
+  padding-top: 10px;
+}
+
+/*Three column layout*/
+.three-column {
+  text-align: center;
+  font-size: 0;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.three-column .column {
+  width: 100%;
+  max-width: 200px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.three-column .contents {
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+}
+
+.three-column img {
+  width: 100%;
+  max-width: 180px;
+  height: auto;
+}
+
+.three-column .text {
+  padding-top: 10px;
+}
+
+.size-100 {
+  max-width: 100px !important;
+}
+
+.size-150 {
+  max-width: 150px !important;
+}
+
+.size-200 {
+  max-width: 200px !important;
+}
+
+.size-300 {
+  max-width: 300px !important;
+}
+
+/*=====  End of Styling to target different email client  ======*/
+
+
+/*===========================================================
+=            Flight centre style guide for email            =
+===========================================================*/
+/* Write email specific css below only in this section. */
+
+body {
+  font-family: Arial;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.h1 {
+  font-family: Arial;
+  font-weight: bold;
+  font-size: 58px;
+  line-height: 55px;
+  color: #cc0c00;
+  Margin-bottom: 18px;
+}
+
+.h2 {
+  font-family: Arial;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 24px;
+  Margin-bottom: 12px;
+}
+
+.h3 {
+  font-family: Arial;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 20px;
+  Margin-bottom: 12px;
+}
+
+a {
+  text-decoration: none;
+  color: #707072;
+}
+
+.header-link {
+  padding: 0 5px;
+  color: #b9b9b9;
+  text-decoration: underline;
+}
+
+.link {
+  font-family: Arial;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+  color: #116AB2;
+  text-decoration: none;
+  padding: initial;
+}
+
+.link::after {
+  content: "\00bb";
+  padding-left: 5px;
+}
+
+.footer-link {
+  font-size: 14px;
+  padding: 0 10px;
+}
+
+.special-paragraph {
+  font-family: Arial;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 30px;
+  color: #cc0c00;
+}
+
+.signature {
+  font-family: Arial;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 20px;
+  color: #cc0c00;
+}
+
+.label {
+  font-family: Arial;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 24px;
+}
+
+.consultant-telephone,
+.consultant-email {
+  font-family: Arial;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 24px;
+  color: #116AB2;
+  text-decoration: none;
+}
+
+.term-and-condition {
+  font-family: Arial;
+  font-weight: normal;
+  font-size: 10px;
+  line-height: 14.4px;
+}
+
+.center {
+  text-align: center;
+}
+
+.two-column-table td {
+  width: 50%;
+  padding: 25px 10px;
+}
+
+.border-bottom {
+  border-bottom: 2px solid #f4f4f4;
+}
+
+.large-spacing-top {
+  Margin-top: 30px !important;
+}
+
+.large-spacing-bottom {
+  Margin-bottom: 30px !important;
+}
+
+.bullets {
+  padding-left: 20px;
+}
+
+.bullets-point {
+  padding: 20px 10px;
+}
+
+img.width-auto {
+  width: auto;
+}
+
+hr {
+  background-color: #f4f4f4;
+  height: 1px;
+  border: 0;
+}
+/*=====  End of Flight centre style guide for email  ======*/
+
