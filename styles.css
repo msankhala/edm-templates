@@ -11,7 +11,7 @@ body {
 table {
   border-spacing: 0;
   font-family: sans-serif;
-  color: #383a40
+  color: #383a40;
   table-layout: fixed;
 }
 
@@ -262,6 +262,14 @@ a {
   text-align: center;
 }
 
+.right {
+  text-align: right;
+}
+
+.left {
+  text-align: left;
+}
+
 .two-column-table td {
   width: 50%;
   padding: 25px 10px;
@@ -295,6 +303,21 @@ hr {
   background-color: #f4f4f4;
   height: 1px;
   border: 0;
+}
+
+.fc-red {
+  color: #cc0c00;
+}
+
+.social-icon {
+  width: 20px;
+  display: inline-block;
+  padding: 10px;
+}
+
+.support-icon {
+  text-align: right;
+
 }
 /*=====  End of Flight centre style guide for email  ======*/
 

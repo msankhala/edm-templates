@@ -9,6 +9,8 @@
   "author": "mahesh.saini@srijan.in",
   "license": "ISC",
   "devDependencies": {
-    "gulp-inline-css": "^3.1.0"
+    "gulp-debug": "^2.1.2",
+    "gulp-inline-css": "^3.1.0",
+    "gulp-replace": "^0.5.4"
   }
 }
