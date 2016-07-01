@@ -12,7 +12,9 @@ table {
   border-spacing: 0;
   font-family: sans-serif;
   color: #383a40;
-  table-layout: fixed;
+  /*table-layout: fixed;*/
+  border-collapse:collapse;
+  padding: 0;
 }
 
 td {
@@ -23,6 +25,10 @@ img {
   border: 0;
 }
 
+/**
+ * This rule is used in conjunction with !important on our body margin to zero
+ * some unwanted padding in Android 4.4’s native mail client.
+ */
 div[style*="margin: 16px 0"] {
   margin:0 !important;
 }
@@ -36,10 +42,14 @@ div[style*="margin: 16px 0"] {
 
 .webkit {
   max-width: 600px;
-  margin: 0 auto;
+  Margin: 0 auto;
 }
 
 .outer {
+  /**
+   * Though this use of margin is for Yahoo’s sake, I always capitalise Margin
+   * so that Outlook.com won’t strip it out–a neat little hack.
+   */
   Margin: 0 auto;
   width: 100%;
   max-width: 600px;
@@ -93,7 +103,7 @@ p {
 
 .two-column img {
   width: 100%;
-  max-width: 280px;
+  /*max-width: 280px;*/
   height: auto;
 }
 
@@ -185,6 +195,14 @@ body {
   font-size: 16px;
   line-height: 20px;
   Margin-bottom: 12px;
+}
+
+.subtitle {
+  font-family: Arial;
+  font-weight: normal;
+  font-size: 22px;
+  line-height: 30px;
+  color: white;
 }
 
 a {
@@ -299,6 +317,10 @@ img.width-auto {
   width: auto;
 }
 
+.full-height {
+  height: 100%;
+}
+
 hr {
   background-color: #f4f4f4;
   height: 1px;
@@ -309,6 +331,14 @@ hr {
   color: #cc0c00;
 }
 
+.fc-bg-red {
+  background: #cc0c00;
+}
+
+.white {
+  color: #fff;
+}
+
 .social-icon {
   width: 20px;
   display: inline-block;
@@ -317,7 +347,6 @@ hr {
 
 .support-icon {
   text-align: right;
-
 }
 /*=====  End of Flight centre style guide for email  ======*/
 
