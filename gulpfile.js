@@ -4,7 +4,7 @@ var gulp = require('gulp'),
     debug = require('gulp-debug');
 
 var bases = {
-  imagesBasePath: 'https://raw.githubusercontent.com/msankhala/edm-templates/master/build/images/',
+  imagesBasePath: 'http://www.flightcentre.com.au/cms_images/crm/media/',
   build: 'build/'
 };
 
