@@ -12,7 +12,7 @@ table {
   border-spacing: 0;
   font-family: sans-serif;
   color: #383a40;
-  /*table-layout: fixed;*/
+  table-layout: fixed;
   border-collapse:collapse;
   padding: 0;
 }
@@ -89,6 +89,8 @@ p {
   max-width: 300px;
   display: inline-block;
   vertical-align: top;
+  padding: 0;
+  Margin: 0;
 }
 
 .contents {
@@ -274,6 +276,7 @@ a {
   font-weight: normal;
   font-size: 10px;
   line-height: 14.4px;
+  text-align: justify;
 }
 
 .center {
@@ -297,12 +300,44 @@ a {
   border-bottom: 2px solid #f4f4f4;
 }
 
-.large-spacing-top {
+.margin-top-10 {
+  Margin-top: 10px !important;
+}
+
+.margin-top-20 {
+  Margin-top: 20px !important;
+}
+
+.margin-top-30 {
   Margin-top: 30px !important;
 }
 
-.large-spacing-bottom {
+.margin-top-40 {
+  Margin-top: 40px !important;
+}
+
+.margin-bottom-10 {
+  Margin-bottom: 10px !important;
+}
+
+.margin-bottom-20 {
+  Margin-bottom: 20px !important;
+}
+
+.margin-bottom-30 {
   Margin-bottom: 30px !important;
+}
+
+.margin-bottom-40 {
+  Margin-bottom: 40px !important;
+}
+
+.padding-left-10 {
+  padding-left: 10px;
+}
+
+.padding-right-10 {
+  padding-right: 10px;
 }
 
 .bullets {
