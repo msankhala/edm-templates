@@ -8,17 +8,7 @@ var bases = {
   build: 'build/'
 };
 
-var paths = {
-  images: ['images/**/*.png']
-};
-
-gulp.task('copy', function() {
-  // Copy images
-  gulp.src(paths.images)
-  .pipe(gulp.dest(bases.build + 'images/'));
-});
-
-gulp.task('css-inliner', ['copy'], function() {
+gulp.task('css-inliner', function() {
   return gulp.src('./*.html')
   .pipe(inlineCss({
     applyStyleTags: true,
@@ -31,6 +21,7 @@ gulp.task('css-inliner', ['copy'], function() {
 });
 
 gulp.task('default', ['css-inliner'], function() {
+  // Replace image url with absolute url.
   gulp.src([bases.build + '*.html'])
     .pipe(debug())
     .pipe(replace(/src="images\//gm, 'src="' + bases.imagesBasePath))
