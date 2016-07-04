@@ -25,6 +25,7 @@ gulp.task('default', ['css-inliner'], function() {
   gulp.src([bases.build + '*.html'])
     .pipe(debug())
     .pipe(replace(/src="images\//gm, 'src="' + bases.imagesBasePath))
+    .pipe(replace(/background="images\//gm, 'background="' + bases.imagesBasePath))
     .pipe(gulp.dest('build/'));
 });
 
