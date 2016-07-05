@@ -99,6 +99,10 @@ p {
   max-height: 300px;
 }
 
+.hide-overflow {
+  overflow: hidden;
+}
+
 .contents {
   width: 100%;
 }
