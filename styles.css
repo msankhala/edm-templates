@@ -93,6 +93,10 @@ p {
   Margin: 0;
 }
 
+.max-height-300 {
+  max-height: 300px;
+}
+
 .contents {
   width: 100%;
 }
