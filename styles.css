@@ -10,7 +10,9 @@ body {
 
 table {
   border-spacing: 0;
-  font-family: sans-serif;
+  font-family: Arial;
+  font-size: 16px;
+  line-height: 20px;
   color: #383a40;
   table-layout: fixed;
   border-collapse:collapse;
